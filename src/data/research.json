@@ -1,0 +1,234 @@
+{
+  "retrieved": "2026-10-24",
+  "directorySource": "https://ccs.cpu.edu.ph/faculty-and-staff/",
+  "caveat": "Published official website roster; source is legacy content and does not establish current appointments. No subject specializations are published. BSDMIA and BLIS associations below are coordinator roles, not invented teaching assignments.",
+  "imageBase": "https://ccs.cpu.edu.ph/wp-content/uploads/2021/11/",
+  "people": [
+    {
+      "name": "Ma. Christina A. Quijano",
+      "credentials": "MSCS",
+      "role": "Dean",
+      "programs": [],
+      "image": "quijano-e1637132499305.png"
+    },
+    {
+      "name": "Rea P. Balontong",
+      "credentials": "MBA",
+      "role": "Department Head (IT & IS)",
+      "programs": ["BSIT"],
+      "image": "balontong-754x1024.jpg"
+    },
+    {
+      "name": "Marjee Rose B. Parre\u00f1o",
+      "credentials": "MSCS, MBA",
+      "role": "Program Coordinator (BSCS, BSDMIA, MSCS)",
+      "programs": ["BSCS", "BSDMIA"],
+      "image": "parreno-754x1024.jpg"
+    },
+    {
+      "name": "Ana Mae B. Cantel",
+      "credentials": "MLIS",
+      "role": "Program Coordinator (BLIS, MLIS)",
+      "programs": ["BLIS"],
+      "image": "cantel-754x1024.jpg"
+    },
+    {
+      "name": "Lennon D. Pajar",
+      "role": "Computer Laboratory Coordinator",
+      "programs": [],
+      "image": "pajar-754x1024.jpg"
+    },
+    {
+      "name": "Leo Paulo B. Beldia",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "beldia-754x1024.jpg"
+    },
+    {
+      "name": "Pedro Peter Rhys B. Cambronero",
+      "credentials": "MSCS",
+      "role": "Faculty",
+      "programs": ["BSCS"],
+      "image": "cambronero-754x1024.jpg"
+    },
+    {
+      "name": "Lesley Joy L. Dignadice",
+      "credentials": "MBA",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "dignadice-1-754x1024.jpg"
+    },
+    {
+      "name": "Rodolfo C. Eregia, Jr.",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "eregia-754x1024.jpg"
+    },
+    {
+      "name": "Donie S. Jardeleza",
+      "credentials": "MSCS",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "jardleza-754x1024.jpg"
+    },
+    {
+      "name": "Antonio M. Monta\u00f1o, Jr.",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "montano-754x1024.jpg"
+    },
+    {
+      "name": "Rose Leah Joy A. Ojacastro",
+      "credentials": "MSCS",
+      "role": "Faculty",
+      "programs": ["BSIT"],
+      "image": "ojacastro-754x1024.jpg"
+    },
+    {
+      "name": "Ma. Sheila C. Sapul",
+      "credentials": "Ph. D.",
+      "role": "Faculty",
+      "programs": ["BSCS"],
+      "image": "sapul-754x1024.jpg"
+    },
+    {
+      "name": "Chrislyn C. Casta\u00f1o",
+      "role": "Secretary",
+      "programs": [],
+      "image": "castano-754x1024.jpg"
+    },
+    {
+      "name": "A.M.P. Latter P. Taasan",
+      "role": "Computer Laboratory Technician",
+      "programs": [],
+      "image": "taasan-754x1024.jpg"
+    },
+    {
+      "name": "Chriselda Elaine Ador",
+      "role": "Guidance Counselor",
+      "programs": [],
+      "image": "ador-754x1024.jpg"
+    },
+    {
+      "name": "Donna May Rivera",
+      "role": "Library Liaison Officer",
+      "programs": [],
+      "image": "rivera-754x1024.png"
+    }
+  ],
+  "institution": {
+    "source": "https://ccs.cpu.edu.ph/vision-and-mission/",
+    "visionParaphrase": "Academic excellence in information technology education that responds to the needs of the whole person and the wider world.",
+    "missionParaphrase": "Educate students through Christian principles and computer studies practice, preparing them for further study, computing careers, information management, and lifelong learning.",
+    "qualityParaphrase": "Combine Christian values, academic excellence, professionalism, and continuous improvement in service to the university and its partners.",
+    "historySource": "https://ccs.cpu.edu.ph/history/",
+    "timeline": [
+      {
+        "year": "1995",
+        "text": "The BSCS program began under the College of Commerce, with about 100 students."
+      },
+      {
+        "year": "2003",
+        "text": "The College of Computer Studies opened in Mary Thomas Building, led by its first dean, Engr. Cirilo C. Calibjo."
+      },
+      {
+        "year": "2014",
+        "text": "The college introduced Digital Media and Interactive Arts."
+      },
+      {
+        "year": "2018",
+        "text": "Library and Information Science joined the college."
+      }
+    ]
+  },
+  "programs": {
+    "BSIT": {
+      "source": "https://ccs.cpu.edu.ph/information-technology/",
+      "summary": "Prepare to plan, integrate, operate, and maintain computing technologies for organizations and their users.",
+      "areas": [
+        "Networking",
+        "Information management",
+        "Web systems",
+        "Information security",
+        "Systems administration",
+        "Systems integration"
+      ],
+      "objectives": [
+        "Analyze user needs and select suitable technology",
+        "Build and evaluate computing solutions",
+        "Practice ethical teamwork and lifelong learning"
+      ],
+      "careersFromSource": [
+        "Information security",
+        "Network architecture",
+        "Database administration",
+        "Systems administration",
+        "Computer support"
+      ],
+      "curriculumNote": "Published curriculum is labeled effective AY 2018\u20132019; describe topic highlights rather than imply a current official course checklist."
+    },
+    "BSCS": {
+      "source": "https://ccs.cpu.edu.ph/computer-science/",
+      "summary": "Study computing theory, algorithms, and software development to solve complex problems.",
+      "areas": [
+        "Algorithms and complexity",
+        "Computer architecture",
+        "Programming languages",
+        "Operating systems",
+        "Software engineering",
+        "Human-computer interaction"
+      ],
+      "objectives": [
+        "Apply mathematical and algorithmic foundations",
+        "Design and evaluate computing solutions",
+        "Communicate and work responsibly in diverse teams"
+      ],
+      "careerNote": "Software developer, software engineer, and computing research are plausible career pathways inferred from the published curriculum; label as pathways rather than official placement promises."
+    },
+    "BSDMIA": {
+      "source": "https://ccs.cpu.edu.ph/digital-media-and-interactive-arts/",
+      "summary": "Combine creative practice, applied arts, and technology to produce digital experiences for entertainment, education, and communication.",
+      "areas": [
+        "Video editing",
+        "Animation",
+        "3D modeling",
+        "Photography",
+        "Graphic design",
+        "Game design",
+        "Virtual reality"
+      ],
+      "objectives": [
+        "Connect traditional arts with digital media",
+        "Develop and evaluate creative solutions for user needs",
+        "Collaborate and practice ethically"
+      ],
+      "careersFromSource": [
+        "Animator",
+        "Graphic designer",
+        "Game designer",
+        "Web designer",
+        "Multimedia artist",
+        "Art director"
+      ]
+    },
+    "BLIS": {
+      "source": "https://ccs.cpu.edu.ph/library-information-science/",
+      "summary": "A four-year program preparing students to develop and manage print, multimedia, electronic, and digital information resources.",
+      "areas": [
+        "Resource evaluation and organization",
+        "Information services",
+        "Library automation",
+        "Information policy and ethics",
+        "Research",
+        "Digital information systems"
+      ],
+      "objectives": [
+        "Select, organize, and share information resources",
+        "Assess user needs and improve information services",
+        "Apply technology to library operations"
+      ],
+      "careerNote": "Librarian and information services professional are pathways supported by the program description; no licensure guarantee.",
+      "sourceWarning": "Source contains obvious copied labels (BSIS graduate heading and Computer Science Society text). Do not reproduce these errors. Use LIS-coded outcomes and BLIS description."
+    }
+  }
+}
