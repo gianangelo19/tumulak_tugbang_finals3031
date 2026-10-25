@@ -11,9 +11,14 @@ defineProps({ program: { type: Object, required: true }, index: Number });
       <span class="eyebrow">{{ program.code }}</span
       ><ArrowUpRight :size="22" />
     </div>
-    <div class="program-art" aria-hidden="true">
-      <span>{{ program.symbol }}</span
-      ><i></i>
+    <div class="program-art">
+      <img
+        :src="program.image"
+        :alt="`${program.code} student organization logo`"
+        loading="lazy"
+        width="300"
+        height="300"
+      />
     </div>
     <h3>{{ program.name }}</h3>
     <p>{{ program.short }}</p>

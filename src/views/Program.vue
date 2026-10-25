@@ -28,14 +28,17 @@ const faculty = computed(() =>
         /></RouterLink>
       </div>
       <div class="program-poster">
-        <span class="poster-orbit" aria-hidden="true"></span
-        ><span class="poster-symbol" aria-hidden="true">{{
-          program.symbol
-        }}</span
-        ><img
+        <img
+          class="program-poster-logo"
           :src="program.image"
-          :alt="`${program.code} student organization emblem`"
-        /><span>{{ program.code }}<small>CREATE YOUR NEXT CHAPTER</small></span>
+          :alt="`${program.code} student organization logo`"
+          width="400"
+          height="400"
+        />
+        <div class="program-poster-caption">
+          <strong>{{ program.code }}</strong
+          ><span>CREATE YOUR NEXT CHAPTER</span>
+        </div>
       </div>
     </section>
     <nav class="section-nav" aria-label="Program sections">

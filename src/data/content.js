@@ -124,7 +124,7 @@ export const programs = Object.entries(details).map(([code, detail]) => ({
   ...detail,
   code,
   id: code.toLowerCase(),
-  image: `/images/${code.toLowerCase()}.png`,
+  image: `/images/${code.toLowerCase()}-organization.jpg`,
 }));
 export const people = research.people.map((person) => ({
   ...person,
