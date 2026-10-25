@@ -1,3 +1,5 @@
+import { latestNews } from "./news";
+import programTranscription from "./program-transcription.json";
 import research from "./research.json";
 import { programDetails } from "./program-details";
 const details = {
@@ -124,6 +126,7 @@ export const programs = Object.entries(details).map(([code, detail]) => ({
   ...research.programs[code],
   ...detail,
   ...programDetails[code],
+  ...programTranscription[code],
   code,
   id: code.toLowerCase(),
   image: `/images/${code.toLowerCase()}-organization.png`,
@@ -134,47 +137,7 @@ export const people = research.people.map((person) => ({
 }));
 export const institution = research.institution;
 export const directorySource = research.directorySource;
-export const news = [
-  {
-    id: "community-partnership",
-    category: "Community",
-    date: "2021-12-08",
-    title: "Building connections beyond the classroom",
-    image: "/images/outreach.jpg",
-    alt: "CPU and Mandurriao Elementary School representatives at the agreement signing",
-    summary:
-      "CCS and Mandurriao Elementary School marked a new partnership through the college’s Adopt a School initiative.",
-    body: "The institutions signed a memorandum of agreement on December 7, 2021. The initiative planned virtual learning-management-system sessions for MES faculty, led by CCS faculty.",
-    source:
-      "https://ccs.cpu.edu.ph/2021/12/08/community-engagement-moa-signing-ceremony/",
-  },
-  {
-    id: "new-librarians",
-    category: "Achievements",
-    date: "2021-11-23",
-    title: "Celebrating our new librarians",
-    image: "/images/librarians.jpg",
-    alt: "CCS congratulatory announcement for the 2021 new librarians",
-    summary:
-      "A milestone for CPU graduates in the September 2021 Librarians Licensure Examination.",
-    body: "The college celebrated its new librarians and their achievement in the September 2021 examination.",
-    source:
-      "https://ccs.cpu.edu.ph/2021/11/23/congratulations-to-our-new-librarians/",
-  },
-  {
-    id: "graduate-careers",
-    category: "Alumni",
-    date: "2021-11-23",
-    title: "CCS graduates take their next step with Kation",
-    image: "/images/graduates.jpg",
-    alt: "CCS announcement about graduates hired by Kation Technologies",
-    summary:
-      "The college shared news of CCS graduates joining Kation Technologies.",
-    body: "This archived college announcement highlights a career milestone for CCS graduates.",
-    source:
-      "https://ccs.cpu.edu.ph/2021/11/23/kation-technologies-hires-ccs-graduates/",
-  },
-];
+export const news = latestNews;
 export const formatDate = (value) =>
   new Date(`${value}T00:00:00`).toLocaleDateString("en-PH", {
     month: "long",

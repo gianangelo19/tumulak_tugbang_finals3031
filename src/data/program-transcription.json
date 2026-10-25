@@ -1,0 +1,266 @@
+{
+  "BSCS": {
+    "name": "Computer Science",
+    "summary": "The Computer Science (CS) Program is designed for students who wants to study computing in depth.",
+    "short": "The Computer Science (CS) Program is designed for students who wants to study computing in depth.",
+    "objectives": [
+      "Exhibit skills, knowledge and leadership to excel in their information technology careers and related discipline.",
+      "Exhibit high standard of professionalism who are effective members of multi-discipline development teams",
+      "Involved in scholarly activities, research and outreach that contributes to the improvement and transformation of society",
+      "Demonstrate ethical, professional, spiritual values, and social responsibility associated with their Information Technology careers and related professions.",
+      "Exhibit proficiency in the use of traditional and digital media arts, designing, developing and implementing digital media solutions in fields of entertainment and corporate environments."
+    ],
+    "programOutcomes": "The graduates have the ability to a) articulate and discuss the latest developments in the specific field of practice. (Philippine Qualifications Framework (PQF) level 6 descriptor) (Graduate Outcomes: CS 10, IS 10, IT13). b) effectively communicate orally and in writing using both English and Filipino (Graduate Outcomes: CS08, 1508, IT10). c) work effectively and independently in multi-disciplinary and multi-cultural teams. (PQF level 6 descriptor) (Graduate Outcomes: CS07, ISO?, IT08). d) act in recognition of professional, social and ethical responsibility (Graduate Outcomes:CS09, 1509, IT12) e) preserve and promote “Filipino historical and cultural heritage” (based on RA 7722). The graduates of BSCS, BSIS, and BSIT must have the ability to a) analyze complex problems, and identify and define the computing requirements needed to design an appropriate solution (Graduate Outcomes:CS02, 1502-03, IT03). b) apply computing and other knowledge domains to address real-world problems (Graduate Outcomes: CSO 1, 1501, IT01). c) design and develop computing solutions using a system-level perspective (Graduate Outcomes: CS03-05, 1504-05, IT05). d) utilize modern computing tools (Graduate Outcomes: CSOS, ISOS, IT07).",
+    "curriculumDate": "Based on CHED Memo Order No. 25 s. 2015 Effective: Academic Year 2018-2019",
+    "rationale": "The computing field has grown enormously and is described as dynamic. It encompasses computer engineering, software engineering, computer science, information systems, and information technology. Based on the Guidelines for the Implementation of CMO 46 s 2012 which implements the shift to learning competency-based standards/outcomes-based education” the Commission released CMO 25 s 2015 last August 2015 that integrates the outcomes-based education. It specifies the “core competencies” expected of graduates of Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS) and Bachelor of Science in Information Technology (BSIT). The Commission recognizes the need to be responsive to the current needs of the country and in order to face the challenges of advancement. It is essential and important that the country’s computing capability be continually developed and strengthened. In this PSG it clearly defines the area of focus for each field, common outcomes for each discipline and new GE for K-12 program. In the PSG it defines the BSCS program that includes the study of computing concepts and theories, algorithmic foundations and new developments in computing. The program prepares students to design and create algorithmically complex software and develop new and effective algorithms for solving computing problems.",
+    "curriculum": "The BSCS curriculum includes foundation and professional courses that cover theory, algorithms, software design and development, and new developments in computing. The curriculum should include courses to cover Knowledge Areas recommended in ACM Computer Science Curricula 2013 (enumerated in PSG) Defines eleven (11) Knowledge Areas: – Algorithms and Complexity – Architecture and Organization – Discreet Structures – Human Computer Interaction – Information Assurance and Security – Networks and Communications – Operating Systems – Programming Languages (Design and Implementation) – Software Development Fundamentals – Software Engineering – Social Issues and Professional Practice",
+    "organizationText": "The Computer Science Society embraces its Mission to promote the Computer Science Course, to guide and prepare the students, to grow and strengthen the bonds of each member as one family, and to utilize the resources of the program to provide service to society and emphasize to students the need of lifelong learning, ethical conduct and an understanding of the diverse social context in which Computer Science is practiced. We furthermore seek to provide excellence in activities and outreaches to develop the community of all Computer Science Students to help and support its members to reach their goals in the ever advance, 21st century.",
+    "graduateHeading": "Bachelor of Science in Computer Science (BSCS)",
+    "outcomes": [
+      {
+        "code": "CS01",
+        "text": "Apply knowledge of computing fundamentals, knowledge of a computing specialization, and mathematics, science, and domain knowledge appropriate for the computing specialization to the abstraction and conceptualization of computing models from defined problems and requirements."
+      },
+      {
+        "code": "CS02",
+        "text": "Identify, analyze, formulate, research literature, and solve complex computing problems and requirements reaching substantiated conclusions using fundamental principles of mathematics, computing sciences, and relevant domain disciplines."
+      },
+      {
+        "code": "CS03",
+        "text": "An ability to apply mathematical foundations, algorithmic principles and computer science theory in the modeling and design of computer-based systems in a way that demonstrates comprehension of the tradeoffs involved in decision choices."
+      },
+      {
+        "code": "CS04",
+        "text": "Knowledge and understanding of information security issues in relation to the design, development and use of information systems."
+      },
+      {
+        "code": "CS05",
+        "text": "Design and evaluate solutions for complex computing problems, and design and evaluate systems, components, or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal, and environmental considerations."
+      },
+      {
+        "code": "CS06",
+        "text": "Create, select, adapt and apply appropriate techniques, resources and modern computing tools to complex computing activities, with an understanding of the limitations to accomplish a common goal."
+      },
+      {
+        "code": "CS07",
+        "text": "Function effectively as an individual and as a member or leader in diverse teams and in multidisciplinary settings."
+      },
+      {
+        "code": "CS08",
+        "text": "Communicate effectively with the computing community and with society at large about complex computing activities by being able to comprehend and write effective reports, design documentation, make effective presentations, and give and understand clear instructions."
+      },
+      {
+        "code": "CS09",
+        "text": "An ability to recognize the legal, social, ethical and professional issues involved in the utilization of computer technology and be guided by the adoption of appropriate professional, ethical and legal practices."
+      },
+      {
+        "code": "CS10",
+        "text": "Recognize the need, and have the ability, to engage in independent learning for continual development as a computing professional."
+      }
+    ],
+    "closing": "\"An academic program for designing interfaces like never before.\""
+  },
+  "BSIT": {
+    "name": "Information Technology",
+    "summary": "The Information Technology (IT) program is designed to bridge the gap between computer science and management information systems.",
+    "short": "The Information Technology (IT) program is designed to bridge the gap between computer science and management information systems.",
+    "objectives": [
+      "Exhibit skills, knowledge and leadership to excel in their information technology careers and related discipline.",
+      "Exhibit high standard of professionalism who are effective members of multi-discipline development teams",
+      "Involved in scholarly activities, research and outreach that contributes to the improvement and transformation of society",
+      "Demonstrate ethical, professional, spiritual values, and social responsibility associated with their Information Technology careers and related professions.",
+      "Exhibit proficiency in the use of traditional and digital media arts, designing, developing and implementing digital media solutions in fields of entertainment and corporate environments."
+    ],
+    "programOutcomes": "The graduates have the ability to a) articulate and discuss the latest developments in the specific field of practice. (Philippine Qualifications Framework (PQF) level 6 descriptor) (Graduate Outcomes: CS 10, IS 10, IT13). b) effectively communicate orally and in writing using both English and Filipino (Graduate Outcomes: CS08, 1508, IT10). c) work effectively and independently in multi-disciplinary and multi-cultural teams. (PQF level 6 descriptor) (Graduate Outcomes: CS07, ISO?, IT08). d) act in recognition of professional, social and ethical responsibility (Graduate Outcomes:CS09, 1509, IT12) e) preserve and promote “Filipino historical and cultural heritage” (based on RA 7722). The graduates of BSCS, BSIS, and BSIT must have the ability to a) analyze complex problems, and identify and define the computing requirements needed to design an appropriate solution (Graduate Outcomes:CS02, 1502-03, IT03). b) apply computing and other knowledge domains to address real-world problems (Graduate Outcomes: CSO 1, 1501, IT01). c) design and develop computing solutions using a system-level perspective (Graduate Outcomes: CS03-05, 1504-05, IT05). d) utilize modern computing tools (Graduate Outcomes: CSOS, ISOS, IT07).",
+    "curriculumDate": "Based on CHED Memo Order No. 25 s. 2015 Effective: Academic Year 2018-2019",
+    "rationale": "The computing field has grown enormously and is described as dynamic. It encompasses computer engineering, software engineering, computer science, information systems, and information technology. Based on the Guidelines for the Implementation of CMO 46 s 2012 which implements the shift to learning competency-based standards/outcomes-based education” the Commission released CMO 25 s 2015 last August 2015 that integrates the outcomes-based education. It specifies the “core competencies” expected of graduates of Bachelor of Science in Computer Science (BSCS), Bachelor of Science in Information Systems (BSIS) and Bachelor of Science in Information Technology (BSIT). The Commission recognizes the need to be responsive to the current needs of the country and in order to face the challenges of advancement. It is essential and important that the country’s computing capability be continually developed and strengthened. In this PSG it clearly defines the area of focus for each field, common outcomes for each discipline and new GE for K-12 program. In the PSG it defines the BSIT program that includes the study of the utilization of both hardware and software technologies involving planning, installing, customizing, operating, managing and administering, and maintaining information technology infrastructure that provides computing solutions to address the needs of an organization. The program prepares graduates to address various user needs involving the selection, development, application, integration and management of computing technologies within an organization. The BSIT program prepares students to work on information security, network architecture, database administration, systems administration, and computer support.",
+    "curriculum": "The BSIT curriculum includes basic and advanced courses on planning, development, integration, and management of information technology infrastructure that provide computing solutions to address the needs of organizations. The curriculum should include courses that cover Knowledge Areas as recommended in ACM Information Technology Curricula 2008 Defines eleven (11) Knowledge Areas: – Information Technology Fundamentals – Human Computer Interaction – Information Assurance and Security – Information Management – Integrative Programming and Technologies – Networking – Platform Technologies – Systems Administration and Maintenance – Systems Integration and Architecture – Social and Professional Issues – Web Systems and Technologies",
+    "organizationText": "The embodiment of Information Technology Students is enriched through camaraderie as they strengthen their bonds with each year level. Through different outreach activities and as well as the college and university, the members of this organization gets to meet and gather ideas to come up and be able to fulfill the mission of this organization, thus, giving them ample knowledge that could help them build a better personality through working together.",
+    "graduateHeading": "Bachelor of Science in Information Technology (BSIT)",
+    "outcomes": [
+      {
+        "code": "IT01",
+        "text": "Apply knowledge of computing, science, and mathematics appropriate to the discipline."
+      },
+      {
+        "code": "IT02",
+        "text": "Understand best practices and standards and their applications."
+      },
+      {
+        "code": "IT03",
+        "text": "Analyze complex problems, and identify and define the computing requirements appropriate to its solution."
+      },
+      {
+        "code": "IT04",
+        "text": "Identify and analyze user needs and take them into account in the selection, creation, evaluation and administration of computer-based systems."
+      },
+      {
+        "code": "IT05",
+        "text": "Design, implement, and evaluate computer-based systems, processes, components, or programs to meet desired needs and requirements under various constraints."
+      },
+      {
+        "code": "IT06",
+        "text": "Integrate IT-based solutions into the user environment effectively."
+      },
+      {
+        "code": "IT07",
+        "text": "Apply knowledge through the use of current techniques, skills, tools and practices necessary for the IT profession."
+      },
+      {
+        "code": "IT08",
+        "text": "Function effectively as a member or leader of a development team recognizing the different roles within a team to accomplish a common goal."
+      },
+      {
+        "code": "IT09",
+        "text": "Assist in the creation of an effective IT project plan."
+      },
+      {
+        "code": "IT10",
+        "text": "Communicate effectively with the computing community and with society at large about complex computing activities through logical writing, presentations, and clear instructions."
+      },
+      {
+        "code": "IT11",
+        "text": "Analyze the local and global impact of computing information technology on individuals, organizations, and society."
+      },
+      {
+        "code": "IT12",
+        "text": "Understand professional, ethical, legal, security and social issues and responsibilities in the utilization of information technology."
+      },
+      {
+        "code": "IT13",
+        "text": "Recognize the need for and engage in planning self-learning and improving performance as a foundation for continuing professional development."
+      }
+    ],
+    "closing": "An academic program for an era of rapidly changing technology Mobile Applications"
+  },
+  "BSDMIA": {
+    "name": "Digital Media and Interactive Arts",
+    "summary": "The Degree of Bachelor of Science in Digital Media and Interactive Arts is focused on creativity, applied arts and digital media technologies.",
+    "short": "The Degree of Bachelor of Science in Digital Media and Interactive Arts is focused on creativity, applied arts and digital media technologies.",
+    "objectives": [
+      "Exhibit skills, knowledge and leadership to excel in their information technology careers and related discipline.",
+      "Exhibit high standard of professionalism who are effective members of multi-discipline development teams",
+      "Involved in scholarly activities, research and outreach that contributes to the improvement and transformation of society",
+      "Demonstrate ethical, professional, spiritual values, and social responsibility associated with their Information Technology careers and related professions.",
+      "Exhibit proficiency in the use of traditional and digital media arts, designing, developing and implementing digital media solutions in fields of entertainment and corporate environments."
+    ],
+    "programOutcomes": "The graduates have the ability to a) articulate and discuss the latest developments in the specific field of practice. (Philippine Qualifications Framework (PQF) level 6 descriptor) (Graduate Outcomes: CS 10, IS 10, IT13). b) effectively communicate orally and in writing using both English and Filipino (Graduate Outcomes: CS08, 1508, IT10). c) work effectively and independently in multi-disciplinary and multi-cultural teams. (PQF level 6 descriptor) (Graduate Outcomes: CS07, ISO?, IT08). d) act in recognition of professional, social and ethical responsibility (Graduate Outcomes:CS09, 1509, IT12) e) preserve and promote “Filipino historical and cultural heritage” (based on RA 7722).",
+    "curriculumDate": "Based on CHED Memo Order No. 25 s. 2015 Effective: Academic Year 2018-2019",
+    "rationale": "The Bachelor of Science in Digital Media and Interactive Arts (BSDMIA) program is offered based on CMO 19 s 2016 article iii section 11 which states that an autonomous institution has the privilege to offer new course(s)/program(s) in the undergraduate and/or graduate levels. Along with this is the effect of technology in the field of arts and other art related careers. Careers in the field of information technology education (ITE) has expanded in the area of art. This has long been integrated in the ITE programs when multimedia was considered as one of its free elective course. As defined in the animation career review site, interactive arts and media discipline combines the elements of arts, design and technology. Artist in the field typically have advanced skills in the areas of visual design, digital storytelling, time-based media, and shaping interactive experiences. Such is applied in animation to mobile communications to video games. In the program the students are introduced to industry standard tools applications in video editing, animation, 3d modeling, photography, graphic design, video game design and virtual reality. Graduates of the program can have careers in advertising agencies, game design companies, pre- and post – production houses, graphic design firms, art studios, mobile communication companies, magazines, publishers, and web design companies. They can be animator, graphic designer, game designer, web designer, multi-media artist, advertising executive, art director, digital artists, and freelance artist.",
+    "curriculum": "The Degree of Bachelor of Science in Digital Media and Interactive Arts is focused on creativity, applied arts and digital media technologies. It is designed to developing creative talents for a variety of applied arts industries, including but not limited to the entertainment, education, advertising and commercials, films and corporate communications sectors. The structure of the course enable students from different disciplines to collaborate and work together to produce the best artworks acceptable to the industry standards. Students will undergo training and education to enhance their skills with the talent-centric curriculum for the high-end digital media industry.",
+    "organizationText": "The Modern Interactive Digital Artists Society mission is to help the BSDMIA students develop a sense of artistic self-identity and to support and conduct exhibits and outreach activities to increase public awareness to extend the part of technology and its impact to the society; ∙ To be the official organization of the",
+    "graduateHeading": "Bachelor of Science in Digital Media and Interactive Arts that embodies all the students enrolled in this course under the College of Computer Studies. Bachelor of Science in Digital Media and Interactive Arts",
+    "outcomes": [
+      {
+        "code": "DMIA01",
+        "text": "Apply knowledge of mathematics, digital media arts exhibit and management, and digital media creation, delivery and consumption appropriate to the field of practice in compliance to established standards and best practices"
+      },
+      {
+        "code": "DMIA02",
+        "text": "Identify user requirements leading to design selection, digital media art creation, evaluation and delivery of digital media- and interactive arts-based solutions"
+      },
+      {
+        "code": "DMIA03",
+        "text": "Design, merge and bridge traditional arts with digital media"
+      },
+      {
+        "code": "DMIA04",
+        "text": "Deliver and implement creations, and evaluate digital media consumption in entertainment and corporate environments effectively"
+      },
+      {
+        "code": "DMIA05",
+        "text": "Demonstrate the use of current techniques, skills, tools and practices"
+      },
+      {
+        "code": "DMIA06",
+        "text": "Function effectively as an individual and as a member or leader in diverse teams and in multidisciplinary settings"
+      },
+      {
+        "code": "DMIA07",
+        "text": "Recognize professional, ethical, legal, security, and social issues and responsibility"
+      },
+      {
+        "code": "DMIA08",
+        "text": "Socially communicate effectively with a diverse audience"
+      },
+      {
+        "code": "DMIA09",
+        "text": "Identify contemporary practices and issues"
+      },
+      {
+        "code": "DMIA10",
+        "text": "Recognize the need for and engage in planning self-learning and improving performance as a foundation for continuing professional development."
+      }
+    ],
+    "closing": "An academic program with a talent-centric curriculum for the high-end digital media industry."
+  },
+  "BLIS": {
+    "name": "Library Information Science",
+    "summary": "The Degree of Bachelor of Library and Information Science (BLIS) is a four-year program that prepares students in the development, deployment, and management of information resources in print, non-print, electronic, and digital formats.",
+    "short": "The Degree of Bachelor of Library and Information Science (BLIS) is a four-year program that prepares students in the development, deployment, and management of information resources in print, non-print, electronic, and digital formats.",
+    "objectives": [
+      "Exhibit skills, knowledge and leadership to excel in their information technology careers and related discipline.",
+      "Exhibit high standard of professionalism who are effective members of multi-discipline development teams",
+      "Involved in scholarly activities, research and outreach that contributes to the improvement and transformation of society",
+      "Demonstrate ethical, professional, spiritual values, and social responsibility associated with their Information Technology careers and related professions.",
+      "Exhibit proficiency in the use of traditional and digital media arts, designing, developing and implementing digital media solutions in fields of entertainment and corporate environments."
+    ],
+    "programOutcomes": "The graduates have the ability to a) articulate and discuss the latest developments in the specific field of practice. (Philippine Qualifications Framework (PQF) level 6 descriptor) (Graduate Outcomes: CS 10, IS 10, IT13). b) effectively communicate orally and in writing using both English and Filipino (Graduate Outcomes: CS08, 1508, IT10). c) work effectively and independently in multi-disciplinary and multi-cultural teams. (PQF level 6 descriptor) (Graduate Outcomes: CS07, ISO?, IT08). d) act in recognition of professional, social and ethical responsibility (Graduate Outcomes:CS09, 1509, IT12) e) preserve and promote “Filipino historical and cultural heritage” (based on RA 7722).",
+    "curriculumDate": "Based on CHED Memo Order No. 25 s. 2015 Effective: Academic Year 2018-2019",
+    "rationale": "Based on he Guidelines for the Implementation of CMO 46 s. 2012, this PSG implements the “shift to learning competency-based standards/outcomes-based education”. It specifies the “core competencies” expected of Bachelor of Library and Information Science (BLIS) graduates regardless of the type of HEI they graduate from. However, in recognition of the spirit of outcomes-based education-which puts premium in the achievement of learning outcomes through different strategies-and in recognition of the typology of HEIs, this PSG also provides ample space for HEIs to innovate in the curriculum, in line with the assessment of how best to achieve learning outcomes in their particular contexts and their respective missions. Policies and standards int he Library and Information Science (LIS) program are necessary for the highest level of quality desired for the education and training of library and information science professionals. They are meant to institutionalize the profession’s central function of providing quality information service to library/information center clientele or users. Its purpose is to make LIS education responsive to the challenges of society’s changing information needs brought about by rapid technological changes and in keeping with the need to make LIS professionals globally competitive.",
+    "curriculum": "The LIS curriculum is designed to equip the professional with the composite knowledge, skills, attitudes, and tools to enable him/her to be responsive to the changing information needs of society.",
+    "organizationText": "The Computer Science Society embraces its Mission to promote the Computer Science Course, to guide and prepare the students, to grow and strengthen the bonds of each member as one family, and to utilize the resources of the program to provide service to society and emphasize to students the need of lifelong learning, ethical conduct and an understanding of the diverse social context in which Computer Science is practiced. We furthermore seek to provide excellence in activities and outreaches to develop the community of all Computer Science Students to help and support its members to reach their goals in the ever advance, 21st century.",
+    "graduateHeading": "Bachelor of Science in Information Systems (BSIS)",
+    "outcomes": [
+      {
+        "code": "LIS01",
+        "text": "Select, evaluate, organize and disseminate print, multimedia, electronic and digital information resources."
+      },
+      {
+        "code": "LIS02",
+        "text": "Effectively communicate orally and in writing, at the same time, use a variety of communication methods in a manner that best enables the message to be understood."
+      },
+      {
+        "code": "LIS03",
+        "text": "Demonstrate logical and systematic approaches to the accomplishment of tasks."
+      },
+      {
+        "code": "LIS04",
+        "text": "Formulate objectives, policies and processes as well as design and manage resources in anticipation of future educational or organizational changes."
+      },
+      {
+        "code": "LIS05",
+        "text": "Recognize, analyze and constructively solve problems, provide appropriate direction and assistance, and overcome barriers when necessary."
+      },
+      {
+        "code": "LIS06",
+        "text": "Identify users’ needs and wants through reference interviews, customer surveys, complaint logs and other means in order to evaluate the effectiveness of current services and improve these and other practices."
+      },
+      {
+        "code": "LIS07",
+        "text": "Work well in groups and seek ways to build team efforts to solve problems and achieve common goals."
+      },
+      {
+        "code": "LIS08",
+        "text": "Understand library’s automation system and the use of computer hardware, software and peripherals, including online collaboration tools (the internet, the worldwide web, and social networking sites)."
+      },
+      {
+        "code": "LIS09",
+        "text": "Develop information technology solutions (e.g., library automation system, Website, e-mail system, etc.)."
+      },
+      {
+        "code": "LIS10",
+        "text": "Conduct significant research projects that will benefit the library and the organization"
+      },
+      {
+        "code": "LIS11",
+        "text": "Evaluate and debate information policy (e.g., copyright law, plagiarism, cybercrimes, etc.) and ethical issues applicable in local, national or global context."
+      },
+      {
+        "code": "LIS12",
+        "text": "Participate in continuing education activities organized by library associations and other entities"
+      }
+    ],
+    "closing": "The program trains students to apply information technology to basic library operations and functions."
+  }
+}

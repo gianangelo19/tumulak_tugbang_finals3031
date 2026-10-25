@@ -9,7 +9,7 @@ const route = useRoute(),
   router = useRouter();
 const query = ref(""),
   selected = ref("All");
-const categories = ["All", "Community", "Achievements", "Alumni"];
+const categories = ["All", "Announcements", "Community", "Achievements"];
 const filtered = computed(() =>
   news.filter(
     (a) =>
@@ -27,14 +27,25 @@ const story = computed(() => news.find((a) => a.id === route.query.story));
       <RouterLink to="/news" class="back-link"
         ><ArrowLeft :size="16" /> All news & events</RouterLink
       >
-      <p class="eyebrow">{{ story.category }} · ARCHIVE</p>
+      <p class="eyebrow">{{ story.category }}</p>
       <h1>{{ story.title }}</h1>
-      <p class="news-date">{{ formatDate(story.date) }}</p>
-      <img class="story-image" :src="story.image" :alt="story.alt" />
+      <p class="news-date">Event date: {{ formatDate(story.date) }}</p>
+      <img
+        v-if="story.image"
+        class="story-image"
+        :src="story.image"
+        :alt="story.alt"
+      />
       <p class="lead">{{ story.summary }}</p>
       <p>{{ story.body }}</p>
-      
-      
+      <p class="news-credit">{{ story.credit }}</p>
+      <a
+        class="button navy news-source"
+        :href="story.source"
+        target="_blank"
+        rel="noopener"
+        >View Facebook coverage &amp; photos ↗</a
+      >
     </article></template
   ><template v-else
     ><PageIntro
@@ -43,9 +54,8 @@ const story = computed(() => news.find((a) => a.id === route.query.story));
       description="Discover moments of achievement, connection, and service from the College of Computer Studies."
     />
     <section class="container section no-top">
-      
       <p v-if="route.query.story" role="status">
-        That story is unavailable. Browse the archive below.
+        That story is unavailable. Browse the stories below.
       </p>
       <div class="directory-toolbar">
         <div class="filter-row">

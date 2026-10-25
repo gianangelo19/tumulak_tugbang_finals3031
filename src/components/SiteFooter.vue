@@ -39,7 +39,7 @@ import { programs } from "../data/content";
       </div>
       <div>
         <h3>Explore</h3>
-        <RouterLink to="/about">Our college</RouterLink
+        <RouterLink to="/about">About our college</RouterLink
         ><RouterLink to="/faculty">Faculty & staff</RouterLink
         ><RouterLink to="/news">News & events</RouterLink
         ><RouterLink to="/contact">Contact us</RouterLink>

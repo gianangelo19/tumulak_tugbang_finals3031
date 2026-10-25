@@ -1,5 +1,5 @@
 <script setup>
-import { ArrowUpRight } from "lucide-vue-next";
+import { ArrowUpRight, CalendarDays } from "lucide-vue-next";
 import { formatDate } from "../data/content";
 defineProps({ article: Object });
 </script>
@@ -9,11 +9,14 @@ defineProps({ article: Object });
       :to="{ path: '/news', query: { story: article.id } }"
       class="news-image"
       :aria-label="article.title"
-      ><img :src="article.image" :alt="article.alt" loading="lazy" /><span>{{
-        article.category
-      }}</span></RouterLink
+      ><img v-if="article.image" :src="article.image" :alt="article.alt" />
+      <div v-else class="news-event-art">
+        <CalendarDays :size="44" /><strong>{{ article.label }}</strong
+        ><small>{{ formatDate(article.date) }}</small>
+      </div>
+      <span>{{ article.category }}</span></RouterLink
     >
-    <p class="news-date">{{ formatDate(article.date) }} · Archive</p>
+    <p class="news-date">{{ formatDate(article.date) }} · Event date</p>
     <h3>
       <RouterLink :to="{ path: '/news', query: { story: article.id } }">{{
         article.title
