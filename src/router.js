@@ -7,7 +7,6 @@ import Faculty from "./views/Faculty.vue";
 import News from "./views/News.vue";
 import Contact from "./views/Contact.vue";
 import NotFound from "./views/NotFound.vue";
-// Hash history keeps deep links working on static hosting without server rewrites.
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [

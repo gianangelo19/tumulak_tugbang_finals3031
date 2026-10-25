@@ -1750,7 +1750,6 @@ main:focus {
   opacity: 0.14;
 }
 
-/* Program identities: preserve the complete supplied artwork at every width. */
 .program-grid {
   align-items: stretch;
 }
