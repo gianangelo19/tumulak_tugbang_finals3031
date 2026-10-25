@@ -1,6 +1,6 @@
 # CPU College of Computer Studies — CCS 3031 redesign
 
-A Vue 3 + Vue Router academic website inspired by the editorial hierarchy, photographic hero, clear actions, and generous spacing of Hope Cancer Resources. CPU's college content and identity remain the subject. This is a student concept, not the university's official site.
+A Vue 3 + Vue Router academic website. CPU's college content and identity remain the subject. This is a student concept, not the university's official site.
 
 ## Run locally
 
@@ -54,7 +54,3 @@ Official sources are recorded in `docs/REFERENCES.md`, `src/data/research.json`,
 - News is archived from 2021 and labeled on every card; no upcoming events were invented.
 - The inquiry form is a frontend demonstration. It does not send, save, or claim to deliver messages. Email, phone, map, and official-source links are functional external links.
 - Fonts are fetched from Google Fonts, with system fallbacks. Other image assets are local.
-
-## Before final submission
-
-Confirm content with the college, review and understand all source code, and follow instructor AI-use requirements. Complete the separate 12-part printed report with actual member contributions and before/after screenshots. The generated source does not establish the group's individual contributions. See `docs/RUBRIC_CHECKLIST.md` and `docs/TESTING.md`.
