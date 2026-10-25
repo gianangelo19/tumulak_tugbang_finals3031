@@ -7,8 +7,8 @@ const details = {
     tagline: "Build technology that connects us.",
     short:
       "Turn technology into practical solutions for people and organizations.",
-    color: "#216449",
-    pale: "#e5f1e9",
+    color: "#7042a6",
+    pale: "#f0e8fa",
     symbol: "⌘",
     areasLabel: "Make technology work for people",
     highlights: [
@@ -38,8 +38,8 @@ const details = {
     fullName: "Bachelor of Science in Computer Science",
     tagline: "Think deeply. Build what’s next.",
     short: "Explore the ideas and algorithms behind tomorrow’s software.",
-    color: "#275d4f",
-    pale: "#e5eeea",
+    color: "#245fa8",
+    pale: "#e6effb",
     symbol: "{ }",
     areasLabel: "Discover the science behind the software",
     highlights: [
@@ -99,8 +99,8 @@ const details = {
     fullName: "Bachelor of Library and Information Science",
     tagline: "Connect people with knowledge.",
     short: "Make information accessible, organized, and meaningful.",
-    color: "#4f6435",
-    pale: "#eef2e5",
+    color: "#247399",
+    pale: "#e4f5fd",
     symbol: "▤",
     areasLabel: "Open up a world of information",
     highlights: [
@@ -126,7 +126,7 @@ export const programs = Object.entries(details).map(([code, detail]) => ({
   ...programDetails[code],
   code,
   id: code.toLowerCase(),
-  image: `/images/${code.toLowerCase()}-organization.jpg`,
+  image: `/images/${code.toLowerCase()}-organization.png`,
 }));
 export const people = research.people.map((person) => ({
   ...person,

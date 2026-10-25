@@ -1,10 +1,11 @@
 <script setup>
 import { institution } from "../data/content";
+import HistoryTimeline from "../components/HistoryTimeline.vue";
 import PageIntro from "../components/PageIntro.vue";
 </script>
 <template>
   <PageIntro
-    eyebrow="ABOUT OUR COLLEGE"
+    eyebrow="OUR COLLEGE"
     title="Built on curiosity. Connected by purpose."
     description="We bring computing, creativity, and information together at Central Philippine University in Iloilo City."
   />
@@ -28,36 +29,22 @@ import PageIntro from "../components/PageIntro.vue";
       <article>
         <span class="eyebrow">01 / VISION</span>
         <h3>A wider world of possibility.</h3>
-        <p>The College of Computer Studies is founded on the vision of academic excellence in Information Technology Education and responsive to the needs of the total person and the world.</p>
+        <p>{{ institution.visionParaphrase }}</p>
       </article>
       <article>
         <span class="eyebrow">02 / MISSION</span>
         <h3>Learning with purpose.</h3>
-        <p>A College of the future with a mission to educate students with the Christian principles and practices of computer studies, preparing them to advance studies, careers in software development, computing systems technology, information management, and for a lifetime learning.</p>
+        <p>{{ institution.missionParaphrase }}</p>
       </article>
       <article>
         <span class="eyebrow">03 / QUALITY & VALUES</span>
         <h3>A commitment to grow.</h3>
-        <p>To fulfill the mission and realize the vision of Central Philippine University, we commit to consistently provide superior quality services by integrating Christian values, academic excellence, highest level of professionalism, and quality consideration in every aspect of our operations.<br><br>
-
-We maintain a quality management system that complies with international quality management system that complies with international quality standards. We continually improve to achieve global excellence that satisfies the expectations of the university community, partner institutions, and the general public.</p>
+        <p>{{ institution.qualityParaphrase }}</p>
       </article>
       
     </div>
   </section>
-  <section class="history-section section">
-    <div class="container">
-      <p class="eyebrow">OUR STORY, STILL UNFOLDING</p>
-      <h2>From a first class<br />to a shared future.</h2>
-      <div class="timeline">
-        <article v-for="entry in institution.timeline" :key="entry.year">
-          <span>{{ entry.year }}</span>
-          <p>{{ entry.text }}</p>
-        </article>
-      </div>
-      
-    </div>
-  </section>
+  <HistoryTimeline />
   <section class="container section two-column">
     <div>
       <p class="eyebrow">OUR EDUCATIONAL PURPOSE</p>
