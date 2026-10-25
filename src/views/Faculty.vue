@@ -64,14 +64,7 @@ function reset() {
         {{ category }}
       </button>
     </div>
-    <p class="source-note directory-note">
-      This directory reflects the
-      <a :href="directorySource" target="_blank" rel="noopener"
-        >published CCS roster ↗</a
-      >, which contains legacy appointments. Confirm current roles with the
-      college. Program specializations are omitted where not published;
-      coordinators are identified by their stated roles.
-    </p>
+    
     <div v-if="!groups.length" class="empty-state">
       <Search :size="32" />
       <h2>No matching people</h2>

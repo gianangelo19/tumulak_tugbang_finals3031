@@ -4,7 +4,7 @@ import PageIntro from "../components/PageIntro.vue";
 </script>
 <template>
   <PageIntro
-    eyebrow="OUR COLLEGE"
+    eyebrow="ABOUT OUR COLLEGE"
     title="Built on curiosity. Connected by purpose."
     description="We bring computing, creativity, and information together at Central Philippine University in Iloilo City."
   />
@@ -21,33 +21,28 @@ import PageIntro from "../components/PageIntro.vue";
       <h2>Education that looks<br />beyond the screen.</h2>
       <p>
         Our work connects technical learning with service, character, and the
-        needs of people. These summaries reflect the college’s published guiding
-        statements.
+        needs of people. 
       </p>
     </div>
     <div class="statements">
       <article>
         <span class="eyebrow">01 / VISION</span>
         <h3>A wider world of possibility.</h3>
-        <p>{{ institution.visionParaphrase }}</p>
+        <p>The College of Computer Studies is founded on the vision of academic excellence in Information Technology Education and responsive to the needs of the total person and the world.</p>
       </article>
       <article>
         <span class="eyebrow">02 / MISSION</span>
         <h3>Learning with purpose.</h3>
-        <p>{{ institution.missionParaphrase }}</p>
+        <p>A College of the future with a mission to educate students with the Christian principles and practices of computer studies, preparing them to advance studies, careers in software development, computing systems technology, information management, and for a lifetime learning.</p>
       </article>
       <article>
         <span class="eyebrow">03 / QUALITY & VALUES</span>
         <h3>A commitment to grow.</h3>
-        <p>{{ institution.qualityParaphrase }}</p>
+        <p>To fulfill the mission and realize the vision of Central Philippine University, we commit to consistently provide superior quality services by integrating Christian values, academic excellence, highest level of professionalism, and quality consideration in every aspect of our operations.<br><br>
+
+We maintain a quality management system that complies with international quality management system that complies with international quality standards. We continually improve to achieve global excellence that satisfies the expectations of the university community, partner institutions, and the general public.</p>
       </article>
-      <a
-        :href="institution.source"
-        class="text-link"
-        target="_blank"
-        rel="noopener"
-        >Read the official guiding statements ↗</a
-      >
+      
     </div>
   </section>
   <section class="history-section section">
@@ -60,13 +55,7 @@ import PageIntro from "../components/PageIntro.vue";
           <p>{{ entry.text }}</p>
         </article>
       </div>
-      <a
-        :href="institution.historySource"
-        class="text-link"
-        target="_blank"
-        rel="noopener"
-        >Explore the college’s published history ↗</a
-      >
+      
     </div>
   </section>
   <section class="container section two-column">

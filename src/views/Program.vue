@@ -3,6 +3,10 @@ import { computed } from "vue";
 import { ArrowUpRight, Check, ArrowLeft } from "lucide-vue-next";
 import { programs, people } from "../data/content";
 import FacultyCard from "../components/FacultyCard.vue";
+import {
+  educationalObjectives,
+  generalOutcomes,
+} from "../data/program-details";
 const props = defineProps({ id: String });
 const program = computed(() => programs.find((p) => p.id === props.id));
 const faculty = computed(() =>
@@ -45,7 +49,9 @@ const faculty = computed(() =>
       <RouterLink
         v-for="[anchor, label] in [
           ['overview', 'Overview'],
-          ['study', 'What you’ll learn'],
+          ['study', 'Curriculum'],
+          ['outcomes', 'Graduate outcomes'],
+          ['organization', 'Student organization'],
           ['careers', 'Career paths'],
           ['people', 'Our people'],
         ]"
@@ -67,15 +73,45 @@ const faculty = computed(() =>
             <Check :size="19" />{{ goal }}
           </li>
         </ul>
-        <p class="source-note">
-          A concise guide to the published program outcomes.
-        </p>
+        
+      </div>
+    </section>
+    <section id="objectives" class="container section no-top two-column">
+      <div>
+        <p class="eyebrow">PROGRAM EDUCATIONAL OBJECTIVES</p>
+        <h2>Learning with a wider purpose.</h2>
+        
+        <ol class="program-detail-list">
+          <li v-for="objective in educationalObjectives" :key="objective">
+            {{ objective }}
+          </li>
+        </ol>
+      </div>
+      <div>
+        <p class="eyebrow">GENERAL PROGRAM OUTCOMES</p>
+        <h2>Beyond technical skills.</h2>
+        <ul class="program-detail-list">
+          <li v-for="outcome in generalOutcomes" :key="outcome">
+            {{ outcome }}
+          </li>
+        </ul>
       </div>
     </section>
     <section id="study" class="program-learning section">
       <div class="container">
         <p class="eyebrow">CURRICULUM HIGHLIGHTS</p>
         <h2>Turn curiosity into capability.</h2>
+        <div class="curriculum-detail-grid">
+          <article>
+            <h3>Curriculum rationale</h3>
+            <p>{{ program.rationale }}</p>
+          </article>
+          <article>
+            <h3>Curriculum description</h3>
+            <p>{{ program.curriculum }}</p>
+            <span class="curriculum-date">{{ program.curriculumDate }}</span>
+          </article>
+        </div>
         <div class="learning-grid">
           <article v-for="(item, i) in program.highlights" :key="item[0]">
             <span class="number">0{{ i + 1 }}</span>
@@ -87,14 +123,45 @@ const faculty = computed(() =>
         <div class="topic-list">
           <span v-for="area in program.areas" :key="area">{{ area }}</span>
         </div>
-        <p class="source-note">
-          Topic highlights from the published CCS program information, not a
-          current semester-by-semester checklist.
-          <a :href="program.source" target="_blank" rel="noopener"
-            >View official program source ↗</a
+        
+      </div>
+    </section>
+    <section id="outcomes" class="container section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">GRADUATE OUTCOMES</p>
+          <h2>What you’re working toward.</h2>
+        </div>
+        
+      </div>
+      
+      <ol class="graduate-outcomes">
+        <li
+          v-for="(outcome, index) in program.outcomes"
+          :key="`${program.prefix}${index}`"
+        >
+          <span
+            >{{ program.prefix }}{{ String(index + 1).padStart(2, "0") }}</span
           >
-          · Contact the college for the latest curriculum.
-        </p>
+          <p>{{ outcome }}</p>
+        </li>
+      </ol>
+    </section>
+    <section id="organization" class="program-organization section">
+      <div class="container organization-layout">
+        <img
+          :src="program.image"
+          :alt="program.organization.name + ' logo'"
+          width="260"
+          height="260"
+          loading="lazy"
+        />
+        <div>
+          <p class="eyebrow">STUDENT ORGANIZATION</p>
+          <h2>{{ program.organization.name }}</h2>
+          <p class="lead">{{ program.organization.description }}</p>
+          
+        </div>
       </div>
     </section>
     <section id="careers" class="container section two-column">
@@ -123,11 +190,7 @@ const faculty = computed(() =>
           >Full directory <ArrowUpRight :size="18"
         /></RouterLink>
       </div>
-      <p class="source-note directory-note">
-        Program associations from the published CCS directory. Current
-        appointments and teaching assignments should be confirmed with the
-        college.
-      </p>
+      
       <div class="faculty-grid">
         <FacultyCard
           v-for="person in faculty"

@@ -59,13 +59,7 @@ import { programs } from "../data/content";
         <a href="mailto:ccssec@cpu.edu.ph">ccssec@cpu.edu.ph</a>
       </div>
     </div>
-    <div class="footer-bottom">
-      <span>CCS 3031 · Website Redesign Project</span
-      ><span>Student concept · Not the official CPU website</span
-      ><a href="https://ccs.cpu.edu.ph/" target="_blank" rel="noopener"
-        >Official CCS site ↗</a
-      >
-    </div>
+    <div class="footer-bottom"><span>College of Computer Studies · Central Philippine University</span></div>
     <p class="image-credit">
       Campus photo:
       <a

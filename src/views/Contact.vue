@@ -62,15 +62,7 @@ async function submit() {
           /></a>
         </div>
       </div>
-      <p class="source-note">
-        Contact details from the
-        <a
-          href="https://ccs.cpu.edu.ph/contact-us/"
-          target="_blank"
-          rel="noopener"
-          >CCS contact page ↗</a
-        >.
-      </p>
+      
     </div>
     <form class="contact-form" novalidate @submit.prevent="submit">
       <p class="eyebrow">TRY THE INQUIRY FORM</p>

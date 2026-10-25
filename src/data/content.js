@@ -1,4 +1,5 @@
 import research from "./research.json";
+import { programDetails } from "./program-details";
 const details = {
   BSIT: {
     name: "Information Technology",
@@ -6,8 +7,8 @@ const details = {
     tagline: "Build technology that connects us.",
     short:
       "Turn technology into practical solutions for people and organizations.",
-    color: "#176c76",
-    pale: "#e3f1ee",
+    color: "#216449",
+    pale: "#e5f1e9",
     symbol: "⌘",
     areasLabel: "Make technology work for people",
     highlights: [
@@ -37,8 +38,8 @@ const details = {
     fullName: "Bachelor of Science in Computer Science",
     tagline: "Think deeply. Build what’s next.",
     short: "Explore the ideas and algorithms behind tomorrow’s software.",
-    color: "#285fa6",
-    pale: "#e8eef8",
+    color: "#275d4f",
+    pale: "#e5eeea",
     symbol: "{ }",
     areasLabel: "Discover the science behind the software",
     highlights: [
@@ -66,8 +67,8 @@ const details = {
     fullName: "Bachelor of Science in Digital Media and Interactive Arts",
     tagline: "Imagine boldly. Create differently.",
     short: "Bring art, storytelling, and interactive technology together.",
-    color: "#92513b",
-    pale: "#f7e8dc",
+    color: "#a9470b",
+    pale: "#fff0e3",
     symbol: "✳",
     areasLabel: "Give your imagination a new medium",
     highlights: [
@@ -98,8 +99,8 @@ const details = {
     fullName: "Bachelor of Library and Information Science",
     tagline: "Connect people with knowledge.",
     short: "Make information accessible, organized, and meaningful.",
-    color: "#635887",
-    pale: "#eeeaf5",
+    color: "#4f6435",
+    pale: "#eef2e5",
     symbol: "▤",
     areasLabel: "Open up a world of information",
     highlights: [
@@ -122,6 +123,7 @@ const details = {
 export const programs = Object.entries(details).map(([code, detail]) => ({
   ...research.programs[code],
   ...detail,
+  ...programDetails[code],
   code,
   id: code.toLowerCase(),
   image: `/images/${code.toLowerCase()}-organization.jpg`,
@@ -155,7 +157,7 @@ export const news = [
     alt: "CCS congratulatory announcement for the 2021 new librarians",
     summary:
       "A milestone for CPU graduates in the September 2021 Librarians Licensure Examination.",
-    body: "The college celebrated its new librarians and their achievement in the September 2021 examination. Read the original announcement for the published results.",
+    body: "The college celebrated its new librarians and their achievement in the September 2021 examination.",
     source:
       "https://ccs.cpu.edu.ph/2021/11/23/congratulations-to-our-new-librarians/",
   },
@@ -168,7 +170,7 @@ export const news = [
     alt: "CCS announcement about graduates hired by Kation Technologies",
     summary:
       "The college shared news of CCS graduates joining Kation Technologies.",
-    body: "This archived college announcement highlights a career milestone for CCS graduates. Visit the original source for the published announcement.",
+    body: "This archived college announcement highlights a career milestone for CCS graduates.",
     source:
       "https://ccs.cpu.edu.ph/2021/11/23/kation-technologies-hires-ccs-graduates/",
   },

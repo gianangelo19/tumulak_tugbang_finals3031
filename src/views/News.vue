@@ -33,12 +33,8 @@ const story = computed(() => news.find((a) => a.id === route.query.story));
       <img class="story-image" :src="story.image" :alt="story.alt" />
       <p class="lead">{{ story.summary }}</p>
       <p>{{ story.body }}</p>
-      <a class="button navy" :href="story.source" target="_blank" rel="noopener"
-        >Read original CCS announcement ↗</a
-      >
-      <p class="source-note">
-        Archived story. Dates and details refer to the original announcement.
-      </p>
+      
+      
     </article></template
   ><template v-else
     ><PageIntro
@@ -47,17 +43,7 @@ const story = computed(() => news.find((a) => a.id === route.query.story));
       description="Discover moments of achievement, connection, and service from the College of Computer Studies."
     />
     <section class="container section no-top">
-      <div class="archive-notice">
-        <strong>From the CCS archive</strong>
-        <p>
-          These stories retain their original 2021 dates. For current
-          announcements and upcoming events,
-          <a href="https://ccs.cpu.edu.ph/" target="_blank" rel="noopener"
-            >visit the official CCS website ↗</a
-          >
-          or contact the college.
-        </p>
-      </div>
+      
       <p v-if="route.query.story" role="status">
         That story is unavailable. Browse the archive below.
       </p>

@@ -15,9 +15,9 @@ watch(
   },
 );
 const links = [
-  ["/about", "Our College"],
+  ["/about", "About Our College"],
   ["/programs", "Programs"],
-  ["/faculty", "Our People"],
+  ["/faculty", "Faculty and Staff"],
   ["/news", "News & Events"],
 ];
 </script>
